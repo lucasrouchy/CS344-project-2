@@ -4,7 +4,7 @@
 #include <fcntl.h>
 #include<errno.h>
 #include <unistd.h>
-int main(int argc, char *argv[]){
+int main(int argc, char **argv){
     char buf[2048];
     size_t nbytes;
     ssize_t bytes_read;
